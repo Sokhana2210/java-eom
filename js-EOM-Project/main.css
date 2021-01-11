@@ -1,0 +1,91 @@
+body {
+    background-image: url('purple.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  #mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white;
+    border-radius: 0 5px 5px 0; 
+  }
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  #Home {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  #About{
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  #Projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #Contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+  img {
+    border-radius: 10px;
+  }
+  /* Contact Me Page*/
+  card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  img{
+    border-radius: 85%;
+  }
